@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout tools:context=".MainActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<TableLayout android:layout_height="711dp" android:layout_width="383dp" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent">
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Sr.No." android:id="@+id/textView5"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Holidays" android:id="@+id/textView4"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="54dp" android:text="Date" android:id="@+id/textView3"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Day" android:id="@+id/textView2"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="47dp" android:text="1" android:id="@+id/textView13"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="160dp" android:text="Makar Sankranti " android:id="@+id/textView12"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="98dp" android:text="14/01/2020 " android:id="@+id/textView11"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="63dp" android:text="Tuesday" android:id="@+id/textView10"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2" android:id="@+id/textView17"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Republic Day" android:id="@+id/textView16"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="26/01/2020" android:id="@+id/textView15"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Sunday " android:id="@+id/textView14"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="3" android:id="@+id/textView21"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Mahashivratri " android:id="@+id/textView20"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="65dp" android:text="21/02/2020" android:id="@+id/textView19"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Friday " android:id="@+id/textView18"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="4" android:id="@+id/textView25"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Dhuleti" android:id="@+id/textView24"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="10/03/2020" android:id="@+id/textView23"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Tuesday" android:id="@+id/textView22"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="5" android:id="@+id/textView29"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Chetichand" android:id="@+id/textView28"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="25/03/202" android:id="@+id/textView27"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Wednesday " android:id="@+id/textView26"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="6" android:id="@+id/textView33"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Shree Ram Navmi " android:id="@+id/textView32"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="02/04/2020" android:id="@+id/textView30"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Thursday " android:id="@+id/textView31"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="7" android:id="@+id/textView37"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Mahavir Jayanti" android:id="@+id/textView36"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="06/04/2020" android:id="@+id/textView35"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Monday" android:id="@+id/textView34"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="8" android:id="@+id/textView41"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Good Friday" android:id="@+id/textView40"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="10/04/2020" android:id="@+id/textView39"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Friday" android:id="@+id/textView38"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="9" android:id="@+id/textView45"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Dr. Ambedkar Jayanti" android:id="@+id/textView44"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="14/04/2020" android:id="@+id/textView43"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Tuesday " android:id="@+id/textView42"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="10" android:id="@+id/textView49"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Parshuram Jayanti " android:id="@+id/textView48"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="25/04/2020 " android:id="@+id/textView47"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Saturday " android:id="@+id/textView46"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="11" android:id="@+id/textView53"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Ramzan-Id" android:id="@+id/textView52"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="25/05/2020 " android:id="@+id/textView51"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Monday " android:id="@+id/textView50"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="12" android:id="@+id/textView57"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Bakri-Id (Id-Ul-Aza) " android:id="@+id/textView56"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="01/08/2020 " android:id="@+id/textView55"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Saturday " android:id="@+id/textView54"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="13" android:id="@+id/textView61"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Raksha Bandhan" android:id="@+id/textView60"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="03/08/2020 " android:id="@+id/textView59"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Monday " android:id="@+id/textView58"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="14" android:id="@+id/textView65"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Janamashtami" android:id="@+id/textView64"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="12/08/2020 " android:id="@+id/textView63"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Wednesday " android:id="@+id/textView62"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="15" android:id="@+id/textView69"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text=" Independence Day " android:id="@+id/textView68"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="15/08/2020 " android:id="@+id/textView67"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Saturday " android:id="@+id/textView66"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="16" android:id="@+id/textView73"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Parsi New Year" android:id="@+id/textView72"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="101dp" android:text="16/08/2020 " android:id="@+id/textView71"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Sunday " android:id="@+id/textView70"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="17" android:id="@+id/textView77"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Ganesh Chaturthi " android:id="@+id/textView76"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="22/08/2020" android:id="@+id/textView75"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Saturday " android:id="@+id/textView74"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="18" android:id="@+id/textView81"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Mahorama " android:id="@+id/textView80"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="30/08/2020 " android:id="@+id/textView79"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Sunday " android:id="@+id/textView78"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="19" android:id="@+id/textView85"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Mahatma Gandhi Jayanti " android:id="@+id/textView84"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="02/10/2020 " android:id="@+id/textView83"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Friday " android:id="@+id/textView82"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="20" android:id="@+id/textView89"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Daserra (Vijayadashami) " android:id="@+id/textView88"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="25/10/2020 " android:id="@+id/textView87"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Sunday " android:id="@+id/textView86"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="21" android:id="@+id/textView93"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Id-e-Milad" android:id="@+id/textView92"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="30/10/2020" android:id="@+id/textView91"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Friday " android:id="@+id/textView90"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="22" android:id="@+id/textView97"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Sardar Patel Jayanti" android:id="@+id/textView96"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="31/10/2020 " android:id="@+id/textView95"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Saturday" android:id="@+id/textView94"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="23" android:id="@+id/textView101"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Diwali" android:id="@+id/textView100"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="14/11/2020 " android:id="@+id/textView99"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Saturday " android:id="@+id/textView98"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="24" android:id="@+id/textView105"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Vikram Samvat New Year's Day, Bhaibij " android:id="@+id/textView104"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/textView103"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/textView102"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="25" android:id="@+id/textView8"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Guru Nanak Jayanti" android:id="@+id/textView7"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="30/11/2020 " android:id="@+id/textView6"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/textView"/>
+
+</TableRow>
+
+    <TableRow android:layout_height="match_parent" android:layout_width="match_parent"> </TableRow>
+
+</TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp">
+
+        <ImageButton
+            android:id="@+id/aboutcity"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/aboutcity" />
+
+        <ImageButton
+            android:id="@+id/citymap"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/citymap" />
+
+
+        <ImageButton
+            android:id="@+id/weather"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/weather" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp">
+
+        <ImageButton
+            android:id="@+id/brts"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/brts" />
+
+        <ImageButton
+            android:id="@+id/cab"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/cab" />
+
+
+        <ImageButton
+            android:id="@+id/railway"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/railway" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp">
+
+        <ImageButton
+            android:id="@+id/tourist"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/tourist" />
+
+        <ImageButton
+            android:id="@+id/events"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/events" />
+
+
+        <ImageButton
+            android:id="@+id/holidays"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/holidays" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp">
+
+        <ImageButton
+            android:id="@+id/restaurant"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/restaurant" />
+
+        <ImageButton
+            android:id="@+id/shopping"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/shopping" />
+
+
+        <ImageButton
+            android:id="@+id/emergency"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/emergency" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
